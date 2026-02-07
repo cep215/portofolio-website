@@ -1,0 +1,25 @@
+{
+  "name": "portofolio-website",
+  "version": "1.0.0",
+  "description": "Static single-page portfolio built with [Leptos](https://leptos.dev/) (Rust → WASM), deployed to GitHub Pages.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cep215/portofolio-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/cep215/portofolio-website/issues"
+  },
+  "homepage": "https://github.com/cep215/portofolio-website#readme",
+  "devDependencies": {
+    "@anthropic-ai/claude-code": "^2.1.34",
+    "@playwright/mcp": "^0.0.64"
+  }
+}
