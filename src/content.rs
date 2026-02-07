@@ -7,10 +7,10 @@ pub const ROLE: &str = "Founder & CEO @ Lawren AI";
 pub const HERO_IMAGE: &str = "images/hero_image.png";
 
 // ── Links ──────────────────────────────────────────────────
-pub const EMAIL: &str = "mailto:catalina@lawren.ai";
+pub const EMAIL: &str = "mailto:catalina.popescu@lawren.ai";
 pub const LINKEDIN_URL: &str = "https://linkedin.com/in/popescu15";
 pub const GITHUB_URL: &str = "https://github.com/cep215";
-pub const LAWREN_URL: &str = "#";
+pub const LAWREN_URL: &str = "https://lawren.ai";
 pub const PDF_URL: &str = "#";
 
 // ── About ──────────────────────────────────────────────────
@@ -76,9 +76,9 @@ pub const FEATURED_WORK: &[WorkCard] = &[
             "Document workflows: summarisation, clause extraction, compliance checks",
             "Enterprise-ready: SSO, audit logs, on-prem deployment options",
         ],
-        links: &[("Site", "#"), ("Demo", "#"), ("Deck", "#")],
+        links: &[("Site", "https://lawren.ai"), ("Press", "https://www.wall-street.ro/articol/Legal-Business/308974/romanii-au-primul-robot-care-te-ajuta-sa-intelegi-constitutia-un-chatbot-juridic-romanesc-iti-explica-legile.html"), ("Deck", "lawren/LAWREN INVESTORS DECK.pdf")],
         chips: &["RAG", "NLP", "LLMs", "Python"],
-        metrics: &["10K+ documents indexed", "3 enterprise pilots"],
+        metrics: &["10K+ users", "3 enterprise pilots"],
     },
     WorkCard {
         title: "PSC Meta \u{2014} Waste-to-Energy / Biogas",
@@ -89,7 +89,7 @@ pub const FEATURED_WORK: &[WorkCard] = &[
             "End-to-end project management for biogas & waste-processing facilities",
             "Process automation reducing operational costs by 30%+",
         ],
-        links: &[("Learn more", "#")],
+        links: &[],
         chips: &["Automation", "Process Optimization", "Biogas"],
         metrics: &["30%+ cost reduction"],
     },
@@ -99,7 +99,7 @@ pub const FEATURED_WORK: &[WorkCard] = &[
         bullets: &[
             "Imperial College London dissertation on applied ML for financial markets",
         ],
-        links: &[("Dissertation", "#")],
+        links: &[("Dissertation", "https://spiral.imperial.ac.uk/entities/publication/a5c8a7ef-4ca0-4ee5-a2d3-f0d4cd0c183c")],
         chips: &["ML", "Finance", "Research"],
         metrics: &[],
     },
