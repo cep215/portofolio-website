@@ -1,0 +1,5 @@
+[build]
+no_sri = true
+
+[serve]
+port = 8080
